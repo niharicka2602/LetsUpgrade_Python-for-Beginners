@@ -1,0 +1,16 @@
+import random
+
+#participant number
+number = int(input("\nEnter the number of participants : "))
+maxparticipant = []
+
+#input random names of the people in the list using for loop
+for i in range(number):
+    name = input("Enter the name of the participants : ")  
+    maxparticipant.append(name)
+print("\nThe list of participants are mentioned below as : \n",maxparticipant) 
+
+#print random participant name who won the lottery
+rdn = random.randint(0,number)
+print("\nThe randomly picked up participant is : ",maxparticipant[rdn])
+    
