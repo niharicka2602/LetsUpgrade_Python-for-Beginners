@@ -11,7 +11,6 @@ Build Subtraction, Multiplication, Division for Calculator
 Assignment No 2:
 <br/>
 Lottery in Python
-
 - User will buy the lottery ticket - max tickets available are 10 <br/>
 - User data is going to be store in the collection variable <br/>
 - After all tickets are sold, <br/>
