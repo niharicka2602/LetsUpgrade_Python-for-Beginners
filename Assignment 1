@@ -1,0 +1,11 @@
+print("Welcome To The Calculator App")
+a = int(input("Enter The value of a : "))
+b = int(input("Enter The value of b : "))
+add = a+b
+subt = a-b 
+mul = a*b
+div = a/b
+print("The sum of a and b is : ", add)
+print("The difference of a and b is : ", subt)
+print("The product of a and b is : ", mul)
+print("The division of a and b is : ", div)
